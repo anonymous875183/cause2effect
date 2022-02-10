@@ -1,6 +1,13 @@
 # cause2effect
 Pointwise Causal Information: Autoencoders for Causal Strength Detection from Text
 
+# Prerequisites
+
+* Download Causenet: [https://groups.uni-paderborn.de/wdqa/causenet/causality-graphs/causenet-full.jsonl.bz2](https://groups.uni-paderborn.de/wdqa/causenet/causality-graphs/causenet-full.jsonl.bz2)
+* Download SemEval 2010 Task 8: [https://huggingface.co/datasets/sem_eval_2010_task_8](https://huggingface.co/datasets/sem_eval_2010_task_8)
+* Rstudio for running Rmd, R, and py, jupyterhub for running ipynb
+* Install any packages, make sure you have R >= 4.0.0. python >= 3.7
+
 # Files
 
 ## `01_causenet_prep.Rmd`
